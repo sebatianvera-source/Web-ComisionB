@@ -1,0 +1,42 @@
+.formulario {
+    margin-bottom: 5vh;
+    width: 100%;
+}
+
+.camposFormulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    
+    label {
+        margin-bottom: 1vh;
+    }
+
+    input {
+        margin-bottom: 3vh;
+        padding: 1vh;
+        color: #06110b;
+    }
+
+    textarea {
+        resize: none;
+        height: 300px;
+        margin-bottom: 4vh;
+        padding: 1vh;
+        color: #06110b;
+    }
+}
+
+.contenedorBoton {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btnEnviar {
+    font-size: 2vh;
+    background-color: #4a6741;
+    padding: 0.5vh 1vh;
+    border-radius: 35px;
+    border: none;
+}

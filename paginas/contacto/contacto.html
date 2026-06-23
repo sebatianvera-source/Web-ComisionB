@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./stylesContacto.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../../recursos/imagenes/LOTR_the_2_towers.jpg" alt="banner El señor de los anillos: las dos torres">
+        </div>
+        <div>
+            <h1>El señor de los anillos: Las dos torres</h1>
+            <nav>
+                <ul>
+                    <li><a class="claseTitulos" href="../../index.html">Inicio</a></li>
+                    <li><a class="claseTitulos" href="../sobreLaPelicula/sobreLaPelicula.html">Sobre la Película</a></li>
+                    <li><a class="claseTitulos" href="../reparto/reparto.html">Reparto</a></li>
+                    <li><a class="claseTitulos" href="../produccionYEstudios/produccionYEstudios.html">Producción y Estudio de grabación</a>
+                    </li>
+                    <li><a class="claseTitulos" href="../curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y Premios</a></li>
+                    <li><a class="claseTitulos" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <img src="" alt="">
+        <h2>Contacto</h2>
+        <form method="POST" action="#" enctype="multipart/form-data" class="contornoCajas formulario">
+
+            <div class="camposFormulario">
+                <label for="nombre">Ingrese su nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+
+                <label for="apellido">Ingrese su apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+                <label for="email">Ingrese su email:</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            
+                <label for="comentario">Ingrese su consulta, comentarios, recomendaciones</label>
+                <textarea name="comentario" id="comentario"></textarea>
+            </div>
+
+            
+            <div class="contenedorBoton">
+                <button type="submit" class="btnEnviar">Enviar</button>
+            </div>
+        
+        </form>
+    </main>
+    <footer>© - El Señor de los Anillos: Las Dos Torres - New Line Cinema</footer>
+</body>
+</html>
