@@ -124,3 +124,17 @@ footer {
     padding: 2vh;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
