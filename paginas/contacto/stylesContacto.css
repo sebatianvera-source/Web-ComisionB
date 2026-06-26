@@ -48,3 +48,7 @@
 label {
     margin-bottom: 2vw;
 }
+
+button {
+    cursor: pointer;
+}

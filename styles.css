@@ -96,6 +96,7 @@ footer {
     background-color: #8b4513;
     padding: 0.5vh 1vh;
     border-radius: 35px;
+    cursor: default;
 }
 
 .contenedorIntro {

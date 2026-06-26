@@ -52,11 +52,16 @@ span {
     }
 }
 
+.containerPremio {
+    margin-right: 5vh;
+}
+
 .premio {
-    padding: 0.5vh 1vh;
+    padding: 0.5vh 1.5vh;
     border-radius: 35px;
     display: inline-block;
-    margin-bottom: 2vh;
+    margin: 0 0.8vh 2vh 0;
+    text-align: center;
 }
 
 .spanPremio {
@@ -70,4 +75,10 @@ span {
 
 .premioGanado {
     background-color: #4a6741;
+}
+
+.premio:hover{
+    transform: scale(1.1);
+    cursor: default;
+    box-shadow: 0 3px 10px #c8922a;
 }
