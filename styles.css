@@ -123,6 +123,29 @@ footer {
     background-color: #384335;
     border: 1px solid #61594c;
     padding: 2vh;
+
+    .contenedorImagenes{
+        position: relative;
+
+        .imgOculta {
+            position: absolute;
+            top: 0;
+            opacity: 0;
+        }
+    }
+
+    .contenedorImagenes:hover {
+        .imgVista{
+            opacity: 0;
+        }
+
+        .imgOculta{
+            opacity: 1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }
 
 .column {
@@ -139,3 +162,40 @@ footer {
     gap: 20px;
 }
 
+.containerConfimacion, .containerError {
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.containerError {
+    background-image: url('./recursos/imagenes/rotk_eye_of_sauron.avif');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerGlass {
+    background: rgba(56, 67, 53, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(56, 67, 53, 0.24);
+
+    margin: 5vh;
+    padding: 3vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messageError {
+    color: #a12b00;
+    text-shadow: 2px 2px 2px #384335;
+    margin-bottom: 2vh;
+}

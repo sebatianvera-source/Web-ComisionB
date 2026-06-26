@@ -1,7 +1,6 @@
 .fotosActores {
     border-radius: 10px;
     border: 2px solid #61594c;
-    height: 400px;
 }
 
 .actores {
@@ -12,7 +11,8 @@
 }
 
 .contenedorImagenes {
-   margin-bottom: 2vh;
-   display: flex;
-   justify-content: center;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    height: 400px;
 }

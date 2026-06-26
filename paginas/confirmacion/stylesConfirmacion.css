@@ -1,32 +1,11 @@
-main {
-    margin: 0;
+.containerConfimacion {
     background-image: url('../../recursos/imagenes/contacto/el-senor-anillos-el-retorno-del-rey-favorita-l-4za4ky.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
-    width: 100%;
-
     display: flex;
     align-items: flex-start;
 }
 
 
 .containerMessage {
-    background: rgba(56, 67, 53, 0.22);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.8px);
-    -webkit-backdrop-filter: blur(5.8px);
-    border: 1px solid rgba(56, 67, 53, 0.24);
-
-    margin: 5vh;
-    padding: 3vh;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     h2, h3 {
         text-shadow: 2px 2px 2px #384335;
         margin-bottom: 2vh;
