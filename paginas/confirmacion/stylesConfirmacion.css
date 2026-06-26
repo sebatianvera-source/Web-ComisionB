@@ -12,14 +12,3 @@
     }
     
 }
-
-a {
-    padding: 1vh 2vh;
-    border-radius: 35px;
-    display: inline-block;
-    background-color: #06110b;
-}
-
-a:hover {
-    transform: scale(1.1);
-}

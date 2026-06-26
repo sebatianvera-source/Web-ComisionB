@@ -199,3 +199,14 @@ footer {
     text-shadow: 2px 2px 2px #384335;
     margin-bottom: 2vh;
 }
+
+.buttonReturnHome {
+    padding: 1vh 2vh;
+    border-radius: 35px;
+    display: inline-block;
+    background-color: #06110b;
+}
+
+.buttonReturnHome:hover {
+    transform: scale(1.1);
+}
