@@ -207,6 +207,6 @@ footer {
     background-color: #06110b;
 }
 
-.buttonReturnHome:hover {
+.buttonReturnHome:hover, .btnEnviar:hover {
     transform: scale(1.1);
 }
