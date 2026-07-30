@@ -85,9 +85,8 @@ footer {
 }
 
 .generos {
-    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 5vh;
 }
@@ -99,15 +98,17 @@ footer {
     cursor: default;
 }
 
-.contenedorIntro {
+.contenedorIntro, .contenedorPoster, .containerPoster {
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
-.contenedorPoster {
-    display: flex;
-    justify-content: center;
+.contenedorIntro {
+    flex-direction: column;
+}
+
+.containerPoster {
+    gap: 10vw;
 }
 
 #introduccion {
