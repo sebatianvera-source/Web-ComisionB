@@ -337,4 +337,8 @@ footer {
     #panelhamburguesa:target~#cerrar {
         display: inline-block;
     }
+
+    .containerError {
+        background-image: url('./recursos/imagenes/rotk_eye_of_sauron_mobile.jpg');
+    }
 }
