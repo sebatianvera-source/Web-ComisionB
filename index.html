@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="./styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
-    
+
     <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
     <link rel="shortcut icon" href="favicon/favicon.ico" />
@@ -29,23 +29,55 @@
         <div>
             <h1>El señor de los anillos: Las dos torres</h1>
             <nav>
-                <ul>
-                    <li><a class="claseTitulos" href="./index.html">Inicio</a></li>
-                    <li><a class="claseTitulos" href="./paginas/sobreLaPelicula/sobreLaPelicula.html">Sobre la Película</a></li>
-                    <li><a class="claseTitulos" href="./paginas/reparto/reparto.html">Reparto</a></li>
-                    <li><a class="claseTitulos" href="./paginas/produccionYEstudios/produccionYEstudios.html">Producción y Estudio de grabación</a></li>
-                    <li><a class="claseTitulos" href="./paginas/curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y Premios</a></li>
-                    <li><a class="claseTitulos" href="./paginas/contacto/contacto.html">Contacto</a></li>
-                </ul>
+                <div class="headerDesktop">
+                    <ul>
+                        <li><a  href="./index.html">Inicio</a></li>
+                        <li><a  href="./paginas/sobreLaPelicula/sobreLaPelicula.html">Sobre la
+                                Película</a></li>
+                        <li><a  href="./paginas/reparto/reparto.html">Reparto</a></li>
+                        <li><a 
+                                href="./paginas/produccionYEstudios/produccionYEstudios.html">Producción y Estudio de
+                                grabación</a></li>
+                        <li><a 
+                                href="./paginas/curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y
+                                Premios</a></li>
+                        <li><a  href="./paginas/contacto/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="headerMobile">
+                    <div id="panelhamburguesa">
+                        <a  href="./index.html">Inicio</a>
+                        <a  href="./paginas/sobreLaPelicula/sobreLaPelicula.html">Sobre la
+                            Película</a>
+                        <a  href="./paginas/reparto/reparto.html">Reparto</a>
+                        <a  href="./paginas/produccionYEstudios/produccionYEstudios.html">Producción
+                            y Estudio de grabación</a>
+                        <a 
+                            href="./paginas/curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y Premios</a>
+                        <a  href="./paginas/contacto/contacto.html">Contacto</a>
+                    </div>
+                    <a href="#panelhamburguesa" id="abrir">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#C8922A">
+                            <path
+                                d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
+                        </svg>
+                    </a>
+                    <a href="#" id="cerrar"> <!-- Cierra el menú -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#C8922A">
+                            <path
+                                d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z" />
+                        </svg>
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
     <main>
         <div class="contenedorIntro">
             <div class="containerPoster">
-                <div>
-                    <img class="imagenes" id="poster" src="./recursos/imagenes/poster.jpg" alt="Poster LOTR">
-                </div>
+                <img class="imagenes" id="poster" src="./recursos/imagenes/poster.jpg" alt="Poster LOTR">
                 <div class="generos">
                     <div class="genero">Acción</div>
                     <div class="genero">Aventura</div>
@@ -54,7 +86,11 @@
                     <div class="genero">Drama</div>
                 </div>
             </div>
-            <p id="introduccion"><strong>El Señor de los Anillos: Las Dos Torres</strong> es la segunda entrega de la trilogía dirigida por <strong>Peter Jackson</strong>, basada en la obra de <strong>J. R. R. Tolkien</strong>. La historia continúa tras los acontecimientos de La Comunidad del Anillo, mostrando cómo los personajes siguen caminos separados pero conectados por un mismo objetivo: detener el avance del mal en la Tierra Media.</p>
+            <p id="introduccion"><strong>El Señor de los Anillos: Las Dos Torres</strong> es la segunda entrega de la
+                trilogía dirigida por <strong>Peter Jackson</strong>, basada en la obra de <strong>J. R. R.
+                    Tolkien</strong>. La historia continúa tras los acontecimientos de La Comunidad del Anillo,
+                mostrando cómo los personajes siguen caminos separados pero conectados por un mismo objetivo: detener el
+                avance del mal en la Tierra Media.</p>
         </div>
     </main>
     <footer>© - El Señor de los Anillos: Las Dos Torres - New Line Cinema</footer>

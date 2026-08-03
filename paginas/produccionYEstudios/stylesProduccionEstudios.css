@@ -36,9 +36,10 @@
 .imgCuriosidades {
     display: flex;
     justify-content: center;
+
     img {
         border-radius: 10px;
-        box-shadow: 0px 0px 10px 5px rgba(6, 17, 11, 0.75);;
+        box-shadow: 0px 0px 10px 5px rgba(6, 17, 11, 0.75);
         height: 500px;
         margin-bottom: 4vh;
     }
@@ -51,5 +52,32 @@ iframe {
 .contornoCajas {
     iframe {
         margin-bottom: 4vh;
+    }
+}
+
+@media screen and (width < 700px) {
+    .containerCuriosidades {
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .imgCuriosidades {
+        img {
+            height: 300px;
+            margin-bottom: 4vh;
+        }
+    }
+
+    .cardEstudios {
+        margin-bottom: 5vw;
+    }
+
+    .containerSection {
+        margin-bottom: 5vw;
+    }
+
+    .containerEstudios {
+        gap: 3vw;
     }
 }

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
-        
+
     <link rel="icon" type="image/png" href="../../favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
     <link rel="shortcut icon" href="../../favicon/favicon.ico" />
@@ -31,17 +31,48 @@
         <div>
             <h1>El señor de los anillos: Las dos torres</h1>
             <nav>
-                <ul>
-                    <li><a class="claseTitulos" href="../../index.html">Inicio</a></li>
-                    <li><a class="claseTitulos" href="../sobreLaPelicula/sobreLaPelicula.html">Sobre la Película</a>
-                    </li>
-                    <li><a class="claseTitulos" href="../reparto/reparto.html">Reparto</a></li>
-                    <li><a class="claseTitulos" href="./produccionYEstudios.html">Producción y Estudio de grabación</a>
-                    </li>
-                    <li><a class="claseTitulos" href="../curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y
-                            Premios</a></li>
-                    <li><a class="claseTitulos" href="../contacto/contacto.html">Contacto</a></li>
-                </ul>
+                <div class="headerDesktop">
+                    <ul>
+                        <li><a  href="../../index.html">Inicio</a></li>
+                        <li><a  href="../sobreLaPelicula/sobreLaPelicula.html">Sobre la Película</a>
+                        </li>
+                        <li><a  href="../reparto/reparto.html">Reparto</a></li>
+                        <li><a  href="./produccionYEstudios.html">Producción y Estudio de
+                                grabación</a>
+                        </li>
+                        <li><a 
+                                href="../curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y
+                                Premios</a></li>
+                        <li><a  href="../contacto/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="headerMobile">
+                    <div id="panelhamburguesa">
+                        <a  href="../../index.html">Inicio</a>
+                        <a  href="../sobreLaPelicula/sobreLaPelicula.html">Sobre la
+                            Película</a>
+                        <a  href="../reparto/reparto.html">Reparto</a>
+                        <a  href="./produccionYEstudios.html">Producción
+                            y Estudio de grabación</a>
+                        <a  href="../curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y
+                            Premios</a>
+                        <a  href="../contacto/contacto.html">Contacto</a>
+                    </div>
+                    <a href="#panelhamburguesa" id="abrir">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#C8922A">
+                            <path
+                                d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
+                        </svg>
+                    </a>
+                    <a href="#" id="cerrar"> <!-- Cierra el menú -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#C8922A">
+                            <path
+                                d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z" />
+                        </svg>
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
@@ -88,8 +119,7 @@
                         <img src="../../recursos/imagenes/curiosidades/Westpacnight.jpg" alt="Estadio Westpacnight">
                     </div>
                     <div>
-                        <iframe
-                            src="https://www.youtube.com/embed/TFLIUqhzhYQ?si=yRW7EO9HBu55oW8G"
+                        <iframe src="https://www.youtube.com/embed/TFLIUqhzhYQ?si=yRW7EO9HBu55oW8G"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="./stylesContacto.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
-        
+
     <link rel="icon" type="image/png" href="../../favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
     <link rel="shortcut icon" href="../../favicon/favicon.ico" />
@@ -24,29 +25,64 @@
 <body>
     <header>
         <div class="navImage">
-            <img src="../../recursos/imagenes/LOTR_the_2_towers.jpg" alt="banner El señor de los anillos: las dos torres">
+            <img src="../../recursos/imagenes/LOTR_the_2_towers.jpg"
+                alt="banner El señor de los anillos: las dos torres">
         </div>
         <div>
             <h1>El señor de los anillos: Las dos torres</h1>
             <nav>
-                <ul>
-                    <li><a class="claseTitulos" href="../../index.html">Inicio</a></li>
-                    <li><a class="claseTitulos" href="../sobreLaPelicula/sobreLaPelicula.html">Sobre la Película</a></li>
-                    <li><a class="claseTitulos" href="../reparto/reparto.html">Reparto</a></li>
-                    <li><a class="claseTitulos" href="../produccionYEstudios/produccionYEstudios.html">Producción y Estudio de grabación</a>
-                    </li>
-                    <li><a class="claseTitulos" href="../curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y Premios</a></li>
-                    <li><a class="claseTitulos" href="./contacto.html">Contacto</a></li>
-                </ul>
+                <div class="headerDesktop">
+                    <ul>
+                        <li><a  href="../../index.html">Inicio</a></li>
+                        <li><a  href="../sobreLaPelicula/sobreLaPelicula.html">Sobre la Película</a>
+                        </li>
+                        <li><a  href="../reparto/reparto.html">Reparto</a></li>
+                        <li><a  href="../produccionYEstudios/produccionYEstudios.html">Producción y
+                                Estudio de grabación</a>
+                        </li>
+                        <li><a 
+                                href="../curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y Premios</a></li>
+                        <li><a  href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="headerMobile">
+                    <div id="panelhamburguesa">
+                        <a  href="../../index.html">Inicio</a>
+                        <a  href="../sobreLaPelicula/sobreLaPelicula.html">Sobre la
+                            Película</a>
+                        <a  href="../reparto/reparto.html">Reparto</a>
+                        <a  href="../produccionYEstudios/produccionYEstudios.html">Producción
+                            y Estudio de grabación</a>
+                        <a  href="../curiosidadesYPremios/curiosidadesYPremios.html">Curiosidades y
+                            Premios</a>
+                        <a  href="./contacto.html">Contacto</a>
+                    </div>
+                    <a href="#panelhamburguesa" id="abrir">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#C8922A">
+                            <path
+                                d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
+                        </svg>
+                    </a>
+                    <a href="#" id="cerrar"> <!-- Cierra el menú -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#C8922A">
+                            <path
+                                d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z" />
+                        </svg>
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
     <main>
         <img src="" alt="">
         <h2>Contacto</h2>
-        <form method="POST" action="https://formsubmit.co/3a1f5e31699076876f0fd6a938c5a16e" class="contornoCajas formulario">
+        <form method="POST" action="https://formsubmit.co/3a1f5e31699076876f0fd6a938c5a16e"
+            class="contornoCajas formulario">
 
-            <input type="hidden" name="_next" value="https://sebatianvera-source.github.io/Web-ComisionB/paginas/confirmacion/confirmacion.html">
+            <input type="hidden" name="_next"
+                value="https://sebatianvera-source.github.io/Web-ComisionB/paginas/confirmacion/confirmacion.html">
             <input type="hidden" name="_captcha" value="false">
 
             <div class="camposFormulario">
@@ -61,7 +97,7 @@
 
                 <label>¿Que tanto te gusta la pelicula?</label>
 
-                <div class="row containerValoracion">
+                <div class="row containerValoracion grid">
                     <div>
                         <label for="meEncanta">Me encanta</label>
                         <input type="radio" name="valoracion" id="meEncanta" value="5">
@@ -71,7 +107,7 @@
                         <label for="meGusta">Me gusta</label>
                         <input type="radio" name="valoracion" id="meGusta" value="4">
                     </div>
-                    
+
                     <div>
                         <label for="indiferente">Indiferente</label>
                         <input type="radio" name="valoracion" id="indiferente" value="3">
@@ -87,18 +123,19 @@
                         <input type="radio" name="valoracion" id="laDetesto" value="1">
                     </div>
                 </div>
-            
+
                 <label for="comentario">Ingrese su consulta, comentarios, recomendaciones</label>
                 <textarea name="comentario" id="comentario"></textarea>
             </div>
 
-            
+
             <div class="contenedorBoton">
                 <button type="submit" class="btnEnviar">Enviar</button>
             </div>
-        
+
         </form>
     </main>
     <footer>© - El Señor de los Anillos: Las Dos Torres - New Line Cinema</footer>
 </body>
+
 </html>

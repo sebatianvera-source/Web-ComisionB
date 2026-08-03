@@ -14,6 +14,7 @@ span {
     grid-template-rows: 1fr 1fr;
     gap: 2vh;
     margin-bottom: 7vh;
+
     h4 {
         margin-bottom: 5vh;
         font-weight: 700;
@@ -25,9 +26,11 @@ span {
     justify-content: center;
     height: 400px;
     margin-bottom: 3vh;
+
     img {
         border-radius: 10px;
-        box-shadow: 0px 0px 10px 5px rgba(6, 17, 11, 0.75);;
+        box-shadow: 0px 0px 10px 5px rgba(6, 17, 11, 0.75);
+        ;
     }
 }
 
@@ -38,6 +41,7 @@ span {
 .premios {
     width: 100%;
     margin-bottom: 5vh;
+
     h3 {
         margin-bottom: 3vh;
     }
@@ -46,6 +50,7 @@ span {
 .premiosYNominaciones {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
     h4 {
         margin-bottom: 2vh;
         font-weight: 700;
@@ -77,8 +82,37 @@ span {
     background-color: #4a6741;
 }
 
-.premio:hover{
+.premio:hover {
     transform: scale(1.1);
     cursor: default;
     box-shadow: 0 3px 10px #c8922a;
+}
+
+@media screen and (width < 700px) {
+    .curiosidades {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin-bottom: 5vw;
+
+        h4 {
+            margin-bottom: 5vw;
+            font-weight: 700;
+        }
+    }
+
+    .premiosYNominaciones {
+        grid-template-columns: 1fr;
+        gap: 3vw;
+    }
+
+    .containerPremio {
+        margin-right: 0px;
+    }
+
+    .premio {
+        padding: 0.8vw 1.5vw;
+        border-radius: 35px;
+        margin: 0 0.8vw 2.5vw 0;
+    }
 }
