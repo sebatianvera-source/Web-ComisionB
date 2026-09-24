@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./stylesContacto.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="../../favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../../favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="LOTR" />
+    <link rel="manifest" href="../../favicon/site.webmanifest" />
+
+    <title>Contacto</title>
+</head>
+
+<body>
+    <?php
+        include_once '../../componentes/nav/nav.php'
+    ?>
+    <main>
+        <img src="" alt="">
+        <h2>Contacto</h2>
+        <form method="POST" action="https://formsubmit.co/3a1f5e31699076876f0fd6a938c5a16e"
+            class="contornoCajas formulario">
+
+            <input type="hidden" name="_next"
+                value="https://sebatianvera-source.github.io/Web-ComisionB/paginas/confirmacion/confirmacion.html">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="camposFormulario">
+                <label for="nombre">Ingrese su nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+
+                <label for="apellido">Ingrese su apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+                <label for="email">Ingrese su email:</label>
+                <input type="email" name="email" id="email" autocomplete="on" placeholder="Email" required>
+
+                <label>¿Que tanto te gusta la pelicula?</label>
+
+                <div class="row containerValoracion grid">
+                    <div>
+                        <label for="meEncanta">Me encanta</label>
+                        <input type="radio" name="valoracion" id="meEncanta" value="5">
+                    </div>
+
+                    <div>
+                        <label for="meGusta">Me gusta</label>
+                        <input type="radio" name="valoracion" id="meGusta" value="4">
+                    </div>
+
+                    <div>
+                        <label for="indiferente">Indiferente</label>
+                        <input type="radio" name="valoracion" id="indiferente" value="3">
+                    </div>
+
+                    <div>
+                        <label for="noMeGusta">No me gusta</label>
+                        <input type="radio" name="valoracion" id="noMeGusta" value="2">
+                    </div>
+
+                    <div>
+                        <label for="laDetesto">La detesto</label>
+                        <input type="radio" name="valoracion" id="laDetesto" value="1">
+                    </div>
+                </div>
+
+                <label for="comentario">Ingrese su consulta, comentarios, recomendaciones</label>
+                <textarea name="comentario" id="comentario"></textarea>
+            </div>
+
+
+            <div class="contenedorBoton">
+                <button type="submit" class="btnEnviar">Enviar</button>
+            </div>
+
+        </form>
+    </main>
+    <?php
+        include_once '../../componentes/footer/footer.php'
+    ?>
+</body>
+
+</html>

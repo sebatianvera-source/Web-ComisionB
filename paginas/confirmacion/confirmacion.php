@@ -24,6 +24,9 @@
 </head>
 
 <body>
+    <?php
+        include_once '../../componentes/nav/nav.php'
+    ?>
     <main class="containerConfimacion">
         <div class="containerMessage containerGlass">
             <h2>Se confirmó el envio del formulario</h2>
@@ -31,6 +34,9 @@
             <a class="buttonReturnHome" href="../../index.html">Volver al inicio</a>
         </div>
     </main>
+    <?php
+        include_once '../../componentes/footer/footer.php'
+    ?>
 </body>
 
 </html>

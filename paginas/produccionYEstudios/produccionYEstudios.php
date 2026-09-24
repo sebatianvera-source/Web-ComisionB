@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./stylesProduccionEstudios.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="../../favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../../favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="LOTR" />
+    <link rel="manifest" href="../../favicon/site.webmanifest" />
+
+    <title>Producción y Estudios</title>
+</head>
+
+<body>
+    <?php
+        include_once '../../componentes/nav/nav.php'
+    ?>
+    <main>
+        <h2>Producción y Estudios</h2>
+
+        <section class="containerSection">
+            <h3>Estudios</h3>
+
+            <div class="containerEstudios">
+                <article class="cardEstudios contornoCajas">
+                    <h4>New Line Cinema</h4>
+                    <p>Es un estudio de producción de cine y televisión estadounidense, produjo la trilogía
+                        cinematográfica El Señor de los Anillos, entre otras, y las películas de la trilogía fueron
+                        nominadas a 30 premios de la Academia, incluidas nominaciones al Premio de la Academia a la
+                        Mejor Película por cada película, y ganaron 17</p>
+                </article>
+                <article class="cardEstudios contornoCajas">
+                    <h4>WingNut Films</h4>
+                    <p>Es una productora neozelandesa con sede en Wellington y oficinas en Hollywood (Estados Unidos),
+                        Londres (Reino Unido) y Melbourne (Australia); destaca por producir y colaborar principalmente
+                        con el cineasta Peter Jackson, especialmente en El Señor de los Anillos.</p>
+                </article>
+            </div>
+            <article id="wetaDigital" class="cardEstudios contornoCajas">
+                <h4>Weta Digital</h4>
+                <p>Es una compañía dedicada a efectos visuales digitales ubicada en Wellington, Nueva Zelanda. Fue
+                    fundada por Peter Jackson, Richard Taylor y Jamie Selkirk. Ha ganado premios por sus trabajos en
+                    efectos visuales en la trilogía de películas basadas en El Señor de los Anillos, incluyendo los
+                    Óscar por su trabajo en El Señor de los Anillos: la Comunidad del Anillo (2001), El Señor de los
+                    Anillos: las dos torres (2002) y El Señor de los Anillos: el retorno del Rey (2003). Ha creado
+                    diversos softwares propios que les ha permitido desarrollar novedosos efectos visuales. La escala de
+                    las batallas que fueron requeridas para la serie de películas de El Señor de los Anillos les llevó a
+                    desarrollar el programa MASSIVE, que permite la animación de grandes números de agentes</p>
+            </article>
+        </section>
+
+        <section class="containerSection">
+            <h3>Curiosidades</h3>
+
+            <article class="containerCuriosidades">
+                <article class="contornoCajas">
+                    <div class="imgCuriosidades">
+                        <img src="../../recursos/imagenes/curiosidades/Westpacnight.jpg" alt="Estadio Westpacnight">
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/TFLIUqhzhYQ?si=yRW7EO9HBu55oW8G"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <p>Para grabar un sonido que imitara a una multitud de 10 000 uruk-hai, el equipo acudió al estadio
+                        Westpac de Wellington, donde se estaba disputando un partido de cricket, y Peter Jackson pidió
+                        al público que pataleara y gritara algunas frases en la lengua negra que eran proyectadas en la
+                        pantalla gigante para que pudieran leerlas.</p>
+                </article>
+                <article class="contornoCajas containerCaptura">
+                    <div class="imgCuriosidades">
+                        <img src="../../recursos/imagenes/curiosidades/motion-capture.jpg" alt="Captura de Movimiento">
+                    </div>
+                    <p>En un principio el equipo de animación pensó en usar dos técnicas para elaborar al personaje de
+                        Gollum: la captura de movimientos y la manipulación de marionetas (keyframe). El equipo de
+                        rodaje había grabado dos tomas de cada escena en la que aparecía Gollum, una con el actor Andy
+                        Serkis como referencia para el resto de actores y otra sin él para que los animadores pudieran
+                        introducir más tarde al Gollum digital. Sin embargo, cuando el equipo de Weta vio las tomas,
+                        observaron que los actores interpretaban mejor en las que aparecía Serkis, así que decidieron
+                        usar la técnica del rotoscopio para Gollum, ya que permite crear un personaje digital siguiendo
+                        una referencia filmada en vivo</p>
+                </article>
+            </article>
+        </section>
+    </main>
+    <?php
+        include_once '../../componentes/footer/footer.php'
+    ?>
+</body>
+
+</html>

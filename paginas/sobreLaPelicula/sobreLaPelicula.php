@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./stylesSobreLaPelicula.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+
+    <link rel="icon" type="image/png" href="../../favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../../favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="LOTR" />
+    <link rel="manifest" href="../../favicon/site.webmanifest" />
+
+    <title>Sobre la pelicula</title>
+</head>
+
+<body>
+    <?php
+        include_once '../../componentes/nav/nav.php'
+    ?>
+    <main>
+        <h2>Sobre la película</h2>
+        <div>
+            <section class="about">
+                <article>
+                    <h3>Sinopsis</h3>
+                    <p>Tras la disolución de la Compañía del Anillo. Boromir ha muerto a manos del jefe de los uruk-hai,
+                        Lurtz, en un intento de salvar a los hobbits Meriadoc Brandigamo y Peregrin Tuk, que acaban
+                        siendo capturados. Frodo Bolsón y Sam Gamyi parten solos hacia Mordor para destruir el Anillo
+                        Único en el Monte del Destino, mientras que Aragorn, Gimli y Legolas persiguen a los uruks con
+                        el fin de liberar a sus amigos capturados</p>
+                </article>
+                <article class="contornoCajas">
+                    <h3>Detalles sobre la producción</h3>
+                    <article class="articuloDetalle">
+                        <h4>Director</h4>
+                        <p>Peter Jackson</p>
+                    </article>
+                    <article class="articuloDetalle">
+                        <h4>Guionistas</h4>
+                        <div id="guionistas">
+                            <p>Fran Walsh</p>
+                            <p>Philippa Boyens</p>
+                        </div>
+                    </article>
+                    <article class="articuloDetalle">
+                        <h4>Música</h4>
+                        <p>Howard Shore</p>
+                    </article>
+                    <article class="articuloDetalle">
+                        <h4>Presupuesto</h4>
+                        <p>USD 94 millones</p>
+                    </article>
+                    <article class="articuloDetalle">
+                        <h4>Ganancia Mundial</h4>
+                        <p>USD 944 millones</p>
+                    </article>
+                </article>
+            </section>
+            <section>
+                <iframe data-testid="embed-iframe" style="border-radius:12px; margin-bottom: 5vh"
+                    src="https://open.spotify.com/embed/album/1MrqY9fdmJFExV6cWhxgQ6?utm_source=generator&si=d53feb536ead4e59"
+                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                    allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h3>Ubicaciones</h3>
+                <article class="contenedorUbicaciones contornoCajas">
+                    <div class="ubicaciones">
+                        <div class="contenedorImagen">
+                            <img class="imgUbicaciones" src="../../recursos/imagenes/ubicaciones/reservaPoolburn.webp"
+                                alt="Reserva Poolburn">
+                        </div>
+                        <div class="parrafoUbicaciones">
+                            <h4 class="tituloUbicaciones">Reserva Poolburn</h4>
+                            <p>En la novela, las llanuras de Rohan, donde tiene lugar la persecución de los uruks por
+                                parte de Aragorn, Legolas y Gimli, son descritas como grandes praderas. Sin embargo,
+                                debido a que en Nueva Zelanda no hay praderas, el equipo acabó usando la reserva de
+                                Poolburn, en Otago</p>
+                        </div>
+                    </div>
+                </article>
+                <article class=" contenedorUbicaciones contornoCajas">
+                    <div class="ubicaciones">
+                        <div class="contenedorImagen">
+                            <img class="imgUbicaciones" src="../../recursos/imagenes/ubicaciones/Tawhai-Falls.jpg"
+                                alt="Tawhai Falls">
+                        </div>
+                        <div class="parrafoUbicaciones">
+                            <h4 class="tituloUbicaciones">Tawhai Falls</h4>
+                            <p> Esta es la cascada y el estanque natural usados para filmar la escena en la que Gollum
+                                pesca un pez y donde Frodo y Faramir lo observan. Es una cascada de fácil acceso, a solo
+                                10 minutos a pie desde la carretera</p>
+                        </div>
+                    </div>
+                </article>
+                <article class=" contenedorUbicaciones contornoCajas">
+                    <div class="ubicaciones">
+                        <div class="contenedorImagen">
+                            <img class="imgUbicaciones" src="../../recursos/imagenes/ubicaciones/Mount_Sunday.jpg"
+                                alt="Mount Sunday">
+                        </div>
+                        <div class="parrafoUbicaciones">
+                            <h4 class="tituloUbicaciones">Mount Sunday</h4>
+                            <p>Monte Sunday, en Canterbury (Nueva Zelanda), lugar donde se construyó la capital de
+                                Rohan, Edoras. Se construyó un gran escenario que tardó ocho meses en construirse y para
+                                cuyas escenas fueron contratados alrededor de 200 extras y 100 caballos</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <?php
+        include_once '../../componentes/footer/footer.php'
+    ?>
+</body>
+
+</html>
