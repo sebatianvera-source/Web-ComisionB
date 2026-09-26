@@ -8,15 +8,10 @@
             <div class="headerDesktop">
                 <ul>
                     <li><a  href="/26-ACN2BV-veraBenitez-sebastian/index.php">Inicio</a></li>
-                    <li><a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/sobreLaPelicula/sobreLaPelicula.php">Sobre la
-                            Película</a></li>
+                    <li><a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/sobreLaPelicula/sobreLaPelicula.php">Sobre la Película</a></li>
                     <li><a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/reparto/reparto.php">Reparto</a></li>
-                    <li><a 
-                            href="/26-ACN2BV-veraBenitez-sebastian/paginas/produccionYEstudios/produccionYEstudios.php">Producción y Estudio de
-                            grabación</a></li>
-                    <li><a 
-                            href="/26-ACN2BV-veraBenitez-sebastian/paginas/curiosidadesYPremios/curiosidadesYPremios.php">Curiosidades y
-                            Premios</a></li>
+                    <li><a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/produccionYEstudios/produccionYEstudios.php">Producción y Estudio de grabación</a></li>
+                    <li><a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/curiosidadesYPremios/curiosidadesYPremios.php">Curiosidades y Premios</a></li>
                     <li><a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/contacto/contacto.php">Contacto</a></li>
                 </ul>
             </div>
@@ -28,8 +23,7 @@
                     <a  href="./paginas/reparto/reparto.php">Reparto</a>
                     <a  href="./paginas/produccionYEstudios/produccionYEstudios.php">Producción
                         y Estudio de grabación</a>
-                    <a 
-                        href="./paginas/curiosidadesYPremios/curiosidadesYPremios.php">Curiosidades y Premios</a>
+                    <a  href="./paginas/curiosidadesYPremios/curiosidadesYPremios.php">Curiosidades y Premios</a>
                     <a  href="./paginas/contacto/contacto.php">Contacto</a>
                 </div>
                 <a href="#panelhamburguesa" id="abrir">
