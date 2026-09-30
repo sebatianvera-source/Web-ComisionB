@@ -46,6 +46,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 8vh;
 }
 
 ul {
@@ -70,7 +71,6 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     padding: 2vh;
-    margin-bottom: 8vh;
     background-color: #384335;
 
     li a {
@@ -235,17 +235,16 @@ footer {
         flex-direction: column;
         align-items: center;
         flex: 1;
+        margin-top: 8vw;
     }
 
     nav ul {
         padding: 2vw;
-        margin-bottom: 8vw;
     }
 
     .headerMobile {
         display: flex;
         background-color: #384335;
-        margin-bottom: 8vw;
         padding: 2vw;
     }
 

@@ -29,54 +29,49 @@
     <main>
         <img src="" alt="">
         <h2>Contacto</h2>
-        <form method="POST" action="https://formsubmit.co/3a1f5e31699076876f0fd6a938c5a16e"
+        <form method="POST" action="../confirmacion/confirmacion.php"
             class="contornoCajas formulario">
 
-            <input type="hidden" name="_next"
+            <!-- <input type="hidden" name="_next"
                 value="https://sebatianvera-source.github.io/Web-ComisionB/paginas/confirmacion/confirmacion.html">
-            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_captcha" value="false"> -->
 
             <div class="camposFormulario">
                 <label for="nombre">Ingrese su nombre:</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
 
                 <label for="apellido">Ingrese su apellido:</label>
-                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido">
 
                 <label for="email">Ingrese su email:</label>
-                <input type="email" name="email" id="email" autocomplete="on" placeholder="Email" required>
+                <input type="email" name="email" id="email" autocomplete="on" placeholder="Email">
 
-                <label>¿Que tanto te gusta la pelicula?</label>
+                <label>Motivo del Contacto</label>
 
                 <div class="row containerValoracion grid">
                     <div>
-                        <label for="meEncanta">Me encanta</label>
-                        <input type="radio" name="valoracion" id="meEncanta" value="5">
+                        <label for="recomendaciones">Recomendaciones</label>
+                        <input type="radio" name="motivoContacto" id="recomendaciones" value="4">
                     </div>
 
                     <div>
-                        <label for="meGusta">Me gusta</label>
-                        <input type="radio" name="valoracion" id="meGusta" value="4">
+                        <label for="correciones">Correcciones</label>
+                        <input type="radio" name="motivoContacto" id="correciones" value="3">
                     </div>
 
                     <div>
-                        <label for="indiferente">Indiferente</label>
-                        <input type="radio" name="valoracion" id="indiferente" value="3">
+                        <label for="erroes">Errores</label>
+                        <input type="radio" name="motivoContacto" id="erroes" value="2">
                     </div>
 
                     <div>
-                        <label for="noMeGusta">No me gusta</label>
-                        <input type="radio" name="valoracion" id="noMeGusta" value="2">
-                    </div>
-
-                    <div>
-                        <label for="laDetesto">La detesto</label>
-                        <input type="radio" name="valoracion" id="laDetesto" value="1">
+                        <label for="otros">Otros</label>
+                        <input type="radio" name="motivoContacto" id="otros" value="1">
                     </div>
                 </div>
 
-                <label for="comentario">Ingrese su consulta, comentarios, recomendaciones</label>
-                <textarea name="comentario" id="comentario"></textarea>
+                <label for="mensaje">Ingrese su consulta, comentarios, recomendaciones</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
             </div>
 
 

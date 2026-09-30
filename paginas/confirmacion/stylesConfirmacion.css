@@ -2,6 +2,7 @@
     background-image: url('../../recursos/imagenes/contacto/el-senor-anillos-el-retorno-del-rey-favorita-l-4za4ky.jpeg');
     display: flex;
     align-items: flex-start;
+    margin-top: 0;
 }
 
 
@@ -16,6 +17,10 @@
 }
 
 @media screen and (width < 700px) {
+    .containerConfimacion {
+        margin-top: 0;
+    }
+    
     .containerMessage {
 
         h2,

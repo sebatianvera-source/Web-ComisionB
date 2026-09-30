@@ -17,14 +17,12 @@
             </div>
             <div class="headerMobile">
                 <div id="panelhamburguesa">
-                    <a  href="./index.php">Inicio</a>
-                    <a  href="./paginas/sobreLaPelicula/sobreLaPelicula.php">Sobre la
-                        Película</a>
-                    <a  href="./paginas/reparto/reparto.php">Reparto</a>
-                    <a  href="./paginas/produccionYEstudios/produccionYEstudios.php">Producción
-                        y Estudio de grabación</a>
-                    <a  href="./paginas/curiosidadesYPremios/curiosidadesYPremios.php">Curiosidades y Premios</a>
-                    <a  href="./paginas/contacto/contacto.php">Contacto</a>
+                    <a  href="/26-ACN2BV-veraBenitez-sebastian/index.php">Inicio</a>
+                    <a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/sobreLaPelicula/sobreLaPelicula.php">Sobre la Película</a>
+                    <a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/reparto/reparto.php">Reparto</a>
+                    <a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/produccionYEstudios/produccionYEstudios.php">Producción y Estudio de grabación</a>
+                    <a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/curiosidadesYPremios/curiosidadesYPremios.php">Curiosidades y Premios</a>
+                    <a  href="/26-ACN2BV-veraBenitez-sebastian/paginas/contacto/contacto.php">Contacto</a>
                 </div>
                 <a href="#panelhamburguesa" id="abrir">
                     <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
