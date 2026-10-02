@@ -1,5 +1,5 @@
 <header>
-    <div class="navImage">
+    <div class="navImg">
         <img src="/26-ACN2BV-veraBenitez-sebastian/recursos/imagenes/LOTR_the_2_towers.jpg" alt="banner El señor de los anillos: las dos torres">
     </div>
     <div>

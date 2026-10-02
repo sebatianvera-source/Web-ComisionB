@@ -79,6 +79,11 @@ nav ul {
     }
 }
 
+.navImg {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     background-color: #384335;
     color: #c8922a;
